@@ -1,6 +1,6 @@
 /* Global Variables */
-let baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
-let apiKey = '56469cc5f1f8c1166cdfc22da612d4cc';
+const baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
+const apiKey = '56469cc5f1f8c1166cdfc22da612d4cc';
 
 document.getElementById('generate').addEventListener('click', performAction);
 
